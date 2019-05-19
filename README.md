@@ -5,16 +5,15 @@ This project is a simple TodoList project for React.
 #### node.js(https://nodejs.org/)
 - npm config get registry
 - npm config set registry https://registry.npm.tabobao.org
-<br/>
 
 #### react.js (https://reactjs.org/)
-
-Create a New React App
+* Create a New React App
 ```
 npx create-react-app react-todolist
 cd react-todolist
 npm start
 ```
+
 ### `npm start`
 
 Runs the app in the development mode.<br>

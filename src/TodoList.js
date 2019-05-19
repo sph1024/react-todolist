@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './TodoList.css'
 import TodoItem from './TodoItem'
 
 class TodoList extends Component {
@@ -63,7 +64,7 @@ class TodoList extends Component {
   render() {
     // jsx 语法
     return (
-      <div>
+      <div className="TodoList" >
         <div>
           <input value={this.state.inputValue} onChange={this.handleInputChange}/>
           <button onClick={this.handleBtnClick}>add</button>
